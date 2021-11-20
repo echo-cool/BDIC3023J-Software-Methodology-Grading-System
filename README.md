@@ -162,12 +162,12 @@ public class TestCase {
                         + student.getFinalScore().toString());
         
         // Customizable Grading
-//        student.setGradingScheme(new GradingScheme() {
-//            @Override
-//            public double getGrade(double assignment, double exam) {
-//                return 0;
-//            }
-//        });
+        student.setGradingScheme(new GradingScheme() {
+            @Override
+            public double getGrade(double assignment, double exam) {
+                return 0;
+            }
+        });
 
     }
 
