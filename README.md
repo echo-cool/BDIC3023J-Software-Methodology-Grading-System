@@ -1,5 +1,4 @@
 # Software Methodology 11.15
-## WangYuyang 19372316
 
 ## Design Pattern
 
